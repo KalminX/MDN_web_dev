@@ -6,6 +6,7 @@ html {
 body{
     margin: 0;
     padding: 0;
+    background-color: blue;
 }
 .box{
     background-color: blue;
@@ -20,7 +21,11 @@ body{
     text-shadow: 3px 1px 2px black;
     background: 
         linear-gradient(to right bottom, 
-        rgb(0, 0, 0, 0), 
-        rgb(0, 0, 0, 0.2) 30%,
+        rgb(0, 20, 0, 0), 
+        rgb(0, 0, 56, 0.2) 30%,
         blue);
+    box-shadow: 8px 8px 0.8vh black,
+        inset 2px 2px 0.2vh white,
+        inset -2px -2px 0.2vh black;
+
 }
