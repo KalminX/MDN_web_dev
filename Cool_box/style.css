@@ -1,0 +1,26 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  /* Your CSS below here */
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 200px 150px;
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
+    margin: 20vh auto 20vh auto;
+    text-shadow: 3px 1px 2px black;
+    background: 
+        linear-gradient(to right bottom, 
+        rgb(0, 0, 0, 0), 
+        rgb(0, 0, 0, 0.2) 30%,
+        blue);
+}
